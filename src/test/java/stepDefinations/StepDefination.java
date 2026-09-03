@@ -59,6 +59,8 @@ public void user_calls_with_http_request(String resource, String method) {
 		System.out.println("GET Response:");
 		System.out.println(response.asString());
 		
+		System.out.println("Learning Git");
+		
 }
 
 	@Then("the API call got success with status code {int}")
