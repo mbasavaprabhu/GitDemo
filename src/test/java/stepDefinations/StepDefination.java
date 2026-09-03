@@ -54,8 +54,15 @@ public class StepDefination extends Utils {
 		// Print response
 		System.out.println("GET Response:");
 		System.out.println(response.asString());
+<<<<<<< HEAD
 
 	}
+=======
+		
+		System.out.println("Learning Git");
+		
+}
+>>>>>>> 94007338a929c37acdd9ef03d6ed251ef5af07a8
 
 	@Then("the API call got success with status code {int}")
 	public void the_API_call_got_success_with_status_code(Integer int1) {
